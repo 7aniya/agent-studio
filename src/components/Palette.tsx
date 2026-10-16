@@ -39,10 +39,10 @@ export function Palette({ onAdd, disabled }: Props) {
       <div className="palette-foot">
         <div className="palette-tip-title">画布操作</div>
         <ul>
-          <li>拖动节点标题栏可移动位置</li>
-          <li>从节点右侧圆点拖出连线</li>
+          <li>按住节点卡片拖动，可移动位置</li>
+          <li>从节点<strong>底部</strong>圆点拖到下一个节点，即连成一条线</li>
           <li>单击连线可删除</li>
-          <li>选中节点后按 Delete 删除</li>
+          <li>选中节点后按 Delete 删除，或点右上角 ×</li>
         </ul>
       </div>
     </aside>
