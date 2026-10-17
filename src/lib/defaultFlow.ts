@@ -42,7 +42,7 @@ export const DEFAULT_FLOW: Flow = {
       title: '是否需要升级人工',
       x: 350,
       y: 460,
-      config: { expression: '投诉|人工|退款|差评|维权' }
+      config: { expression: '投诉|人工|差评|维权' }
     },
     {
       id: 'tool',
